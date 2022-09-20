@@ -1,0 +1,30 @@
+/* Customize your main colors in :root variables */
+:root {
+  --main-background-color: #343A50;
+  --card-background-color: #804980;
+  --countdown-background-color: #433765;
+  --main-text-color:#F7F6F4;
+  --title-text-color:#3CBA8B;
+}
+body {
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+body{
+/*  background-color:var(--main-background-color);*/
+  background: url("img/mint_back@2x.jpg") center center no-repeat;
+  background-size: cover;
+  font-size: 1.1em;
+}
+
+h2{
+  font-family: 'Permanent Marker', cursive;
+  color: var(--main-text-color);
+}
+
+h3{
+font-weight: normal;
+}
+
+
+
